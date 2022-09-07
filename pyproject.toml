@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "odata_request_parser"
+version = "0.1"
+authors = [
+  { name="Jeroen Beekman", email="j.beekman@amsterdam.nl" },
+]
+description = "A parser for oData request query strings"
+readme = "README.md"
+license = { file="LICENSE" }
+requires-python = ">=3.9"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/Amsterdam/odata_request_parser"
+"Bug Tracker" = "https://github.com/Amsterdam/odata_request_parser/issues"
