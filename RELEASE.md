@@ -1,6 +1,8 @@
 # How to release a new distribution of this project
 
-First build the project, this will create the `dist` folder
+First update the version number in `pyproject.toml`. 
+
+Then build the project, this will create the `dist` folder
 
 ```> python3 -m build```
 
@@ -18,4 +20,4 @@ index-servers =
 
 You can now upload the latest distribution of the project to PYPI
 
-```> python3 -m twine upload --repository odata-request-parser dist/* ```
+```> python3 -m twine upload --repository odata-request-parser --skip-existing dist/* ```
